@@ -73,4 +73,10 @@
   {% include '_scripts/baidu-push.swig' %}
 
 </body>
+<!-- 背景动画 -->
+<script type="text/javascript" src="/js/src/particle.js"></script>
+<!-- 奔溃欺骗 -->
+<script type="text/javascript" src="/js/src/Collapse_cheating.js"></script>
+<!-- 页面点击小红心 -->
+<!-- <script type="text/javascript" src="/js/src/love.js"></script> -->
 </html>
