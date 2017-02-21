@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", "Lobster Two", "Roboto Slab", "PingFang SC", "Microsoft YaHei", "sans-serif", sans-serif;
   font-size: 14px;
   line-height: 2;
   color: #555;
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", "Lobster Two", "Roboto Slab", "PingFang SC", "Microsoft YaHei", "sans-serif", sans-serif;
 }
 h2,
 h3,
@@ -503,7 +503,7 @@ pre,
 }
 pre,
 code {
-  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", "Lobster Two", "Roboto Slab", "PingFang SC", "Microsoft YaHei", "sans-serif", monospace;
 }
 code {
   padding: 2px 4px;
@@ -869,7 +869,8 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: #fff;
+  background: url("/images/banner.jpg") no-repeat;
+  background-size: 100% 100%;
 }
 .header-inner {
   position: relative;
@@ -892,7 +893,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #fff;
-  background: #222;
+  background: none;
   border-bottom: none;
 }
 .brand:hover {
@@ -908,9 +909,9 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 20px;
+  font-size: 48px;
   font-weight: normal;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", "Lobster Two", "Roboto Slab", "PingFang SC", "Microsoft YaHei", "sans-serif", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -967,6 +968,11 @@ pre .javascript .function {
   margin-top: 20px;
   padding-left: 0;
   text-align: center;
+  background: rgba(255,255,255,0.65);
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  border-radius: initial;
 }
 .menu .menu-item {
   display: inline-block;
@@ -978,8 +984,9 @@ pre .javascript .function {
   }
 }
 .menu .menu-item a {
+  font-size: 14px;
+  color: rgba(0,0,0,0.9);
   display: block;
-  font-size: 13px;
   text-transform: capitalize;
   line-height: inherit;
   border-bottom: 1px solid transparent;
@@ -998,7 +1005,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", "Lobster Two", "Roboto Slab", "PingFang SC", "Microsoft YaHei", "sans-serif", sans-serif;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1263,7 +1270,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", "Lobster Two", "Roboto Slab", "PingFang SC", "Microsoft YaHei", "sans-serif", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1548,7 +1555,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cd7d04;
+  background: #5e0d95;
 }
 .links-of-blogroll {
   font-size: 13px;
