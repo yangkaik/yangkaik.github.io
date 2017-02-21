@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: images/fx.ico
+favicon: fx.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "blog,杨凯凯,web前端,H5"
@@ -72,39 +72,34 @@ scheme: Muse
 font:
   enable: true
 
-  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
+  # 外链字体库地址，例如 //fonts.googleapis.com (默认值)
   host:
 
-  # Global font settings used on <body> element.
+  # 全局字体，应用在 body 元素上
   global:
-    # external: true will load this font family from host.
     external: true
-    family: Lato
+    family: Monda
 
-  # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
-  # Fallback to `global` font settings.
+  # 标题字体 (h1, h2, h3, h4, h5, h6)
   headings:
     external: true
-    family:
+    family: Roboto Slab
 
-  # Font settings for posts
-  # Fallback to `global` font settings.
+  # 文章字体
   posts:
     external: true
     family:
 
-  # Font settings for Logo
-  # Fallback to `global` font settings.
-  # The `size` option use `px` as unit
+  # Logo 字体
   logo:
     external: true
-    family:
-    size:
+    family: Lobster Two
+    size: 24
 
-  # Font settings for <code> and code blocks.
+  # 代码字体，应用于 code 以及代码块
   codes:
     external: true
-    family:
+    family: PT Mono
 
 
 
@@ -117,8 +112,12 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/yangkaik
+  #Twitter: https://twitter.com/your-user-name
+  #微博: http://weibo.com/your-user-name
+  #豆瓣: http://douban.com/people/your-user-name
+  #知乎: http://www.zhihu.com/people/your-user-name
 
 
 # Social Links Icons
@@ -131,8 +130,8 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
-  Weibo: weibo
+  #Twitter: twitter
+  #Weibo: weibo
 
 
 # Sidebar Avatar
@@ -179,7 +178,9 @@ sidebar:
 #links:
   #Title: http://example.com/
 
-
+links_title: Links
+links:
+  任伯安: https://zonghongyan.github.io/
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -198,7 +199,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
@@ -238,7 +239,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: ykk
 
 # Disqus
 #disqus_shortname:
@@ -274,7 +275,8 @@ mathjax:
 duoshuo_info:
   ua_enable: true
   admin_enable: false
-  user_id: 0
+  user_id: 6389489906107811000
+  admin_nickname: ykk
   #admin_nickname: Author
 
 
