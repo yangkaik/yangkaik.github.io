@@ -102,15 +102,31 @@
 
 
 
-<meta name="description" content="记录日常工作遇到的技术问题">
-<meta property="og:type" content="website">
-<meta property="og:title" content="yangkaik">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="创建对象的几种方法
+
+
+基本对象的创建方法 
+
+最基础的对象创建方式123456var box = new Object();    //创建对象    box.name= &amp;apos;Lee&amp;apos;;       //添加属性    box.age=100;    box.run= function()&amp;#123;           return this.name+this.age+&amp;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="面向对象与原型">
+<meta property="og:url" content="http://yoursite.com/2017/02/22/20170222/index.html">
 <meta property="og:site_name" content="yangkaik">
-<meta property="og:description" content="记录日常工作遇到的技术问题">
+<meta property="og:description" content="创建对象的几种方法
+
+
+基本对象的创建方法 
+
+最基础的对象创建方式123456var box = new Object();    //创建对象    box.name= &amp;apos;Lee&amp;apos;;       //添加属性    box.age=100;    box.run= function()&amp;#123;           return this.name+this.age+&amp;">
+<meta property="og:updated_time" content="2017-02-22T06:28:07.124Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="yangkaik">
-<meta name="twitter:description" content="记录日常工作遇到的技术问题">
+<meta name="twitter:title" content="面向对象与原型">
+<meta name="twitter:description" content="创建对象的几种方法
+
+
+基本对象的创建方法 
+
+最基础的对象创建方式123456var box = new Object();    //创建对象    box.name= &amp;apos;Lee&amp;apos;;       //添加属性    box.age=100;    box.run= function()&amp;#123;           return this.name+this.age+&amp;">
 
 
 
@@ -128,7 +144,7 @@
   };
 </script>
 
-  <title> yangkaik </title>
+  <title> 面向对象与原型 | yangkaik </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -149,9 +165,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -238,9 +252,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -260,10 +274,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/02/22/20170222/" itemprop="url">
-                  面向对象与原型
-                </a>
+                面向对象与原型
               
             
           </h1>
@@ -310,8 +321,7 @@
       
 
       
-        
-          <ul>
+        <ul>
 <li>创建对象的几种方法</li>
 </ul>
 <ol>
@@ -322,153 +332,76 @@
 <li>使用字面量创建</li>
 </ol>
 <p>作为一门脚本语言那应该有和其他兄弟们一样的范儿，于是出现了对象字面量的定义方式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">var box = &#123;</div><div class="line">    name : &quot;tangwei&quot;,</div><div class="line">    bar : &quot;js&quot;,</div><div class="line">    sayWhat : function() &#123;</div><div class="line">    console.log(this.name + &quot;said:love you forever&quot;);</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/02/22/20170222/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+ <a id="more"></a>
+<ol>
+<li>工厂模式</li>
+</ol>
+<p>字面量实际上是我们在实际中最常用的对象定义方式，但是我要有好多拥有相似属性的对象（想想都让人激动。。。）怎么办呢？那要是一个个的定义，就会产生大量的代码，何不建个工厂，批量的生产出我们的对象呢，于是，javascript世界中“工厂模式”诞生了！<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">function creationGf(name,bar)&#123;</div><div class="line">    var o = new Object();</div><div class="line">    o.name = name;</div><div class="line">    o.bar = bar;</div><div class="line">    0.sayWhat = function() &#123;</div><div class="line">    alert(this.name + &quot;said:love you forver&quot;);</div><div class="line">    &#125;</div><div class="line">    return o;               //返回对象引用</div><div class="line">&#125;</div><div class="line">var Gf1 = creationGf(&quot;binbing&quot;,&quot;d&quot;);</div><div class="line">var Gf2 = creationGf(&quot;bi&quot;,&quot;ddd&quot;);</div></pre></td></tr></table></figure></p>
+<p>工厂模式解决了集中实例化的问题，但还有一个问题，那就是识别问题，因为根本无法搞清楚他们到底是哪个对象的实例。</p>
+<p>如果我们再创建一个 creationGf2对象<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var Gf3 = creationGf(&quot;aaa&quot;,&quot;xxx&quot;);</div></pre></td></tr></table></figure></p>
+<p>这时候我们无法搞清Gf3是属于creationGf对象还是属于creationGf2<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">alert(typeof Gf1);     //Object</div><div class="line">alert(typeof Gf2);     //Object</div><div class="line">alert(typeof Gf3);     //Object</div><div class="line">alert(Gf1 instanceof Object);   //true</div></pre></td></tr></table></figure></p>
+<ol>
+<li>构建函数</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">function Gf(name,bar)&#123;</div><div class="line">    this.name = name;</div><div class="line">    this.bar = bar;</div><div class="line">    this.sayWhat = function()&#123;</div><div class="line">    alert(this.name + &quot;said:love you forever&quot;);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">var gf1 = new Gf(&quot;vivian&quot;,&quot;f&quot;);</div><div class="line">var gf2 = new Gf(&quot;vivian2&quot;,&quot;f&quot;);</div></pre></td></tr></table></figure>
+<p>注意：这里我们使用一个大写字母开头的构造函数替代了上例中的createGf，注意按照约定构造函数的首字母要大写。<br>在这里我们创建一个新对象，然后将构造函数的作用域赋给新对象，调用构造函数中的方法。<br>上面的方式似乎没什么不妥，但是我们可以发现，两个实例中调用的构造函数中的sayWhat方法不是同一个Function实例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">console.log(gf1.sayWhat == gf2.sayWhat); //false</div></pre></td></tr></table></figure></p>
+<p>调用同一个方法，却声明了不同的实例，实在浪费资源。我们可以优化一下将sayWhat函数放到构造函数外面声明：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">function Gf(name,bar)&#123;</div><div class="line">  this.name = name;</div><div class="line">  this.bar = bar;</div><div class="line">  this.sayWhat = sayWhat</div><div class="line">&#125;</div><div class="line">function sayWhat()&#123;</div><div class="line">  alert(this.name + &quot;said:love you forever&quot;);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>这样解决了，多个实例多次定义同一个方法实例的问题，但是新问题又来了，我们定义的sayWhat是一个全局作用域的方法，但这个方法其实是没法直接调用的，这就有点矛盾了。如何更优雅的定义一个具备一定封装性的对象呢？我们来看一下javascript原型对象模式。</p>
+
+      
+    </div>
+
+    <div>
+      
         
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
     <div>
+        
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">------本文结束<i class="fa fa-paw"></i>感谢阅读------</div>
+    
+</div>
         
     </div>
     <footer class="post-footer">
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/02/19/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2017/02/19/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-02-19T14:11:12+08:00" content="2017-02-19">
-              2017-02-19
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/02/19/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/19/hello-world/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-    <div>
-        
-    </div>
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -476,6 +409,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/02/22/20170222/"
+           data-title="面向对象与原型" data-url="http://yoursite.com/2017/02/22/20170222/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -495,8 +436,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -557,6 +507,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -653,6 +614,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
