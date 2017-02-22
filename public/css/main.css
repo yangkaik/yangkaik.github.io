@@ -869,7 +869,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: url("/images/banner.jpg") no-repeat;
+  background: url("/images/banner2.jpg") no-repeat;
   background-size: 100% 100%;
 }
 .header-inner {
@@ -968,7 +968,7 @@ pre .javascript .function {
   margin-top: 20px;
   padding-left: 0;
   text-align: center;
-  background: rgba(255,255,255,0.65);
+  background: rgba(255,255,255,0.3);
   margin-left: auto;
   margin-right: auto;
   width: 450px;
@@ -984,7 +984,7 @@ pre .javascript .function {
   }
 }
 .menu .menu-item a {
-  font-size: 14px;
+  font-size: 16px;
   color: rgba(0,0,0,0.9);
   display: block;
   text-transform: capitalize;
@@ -1555,7 +1555,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffc8;
+  background: #ffb901;
 }
 .links-of-blogroll {
   font-size: 13px;

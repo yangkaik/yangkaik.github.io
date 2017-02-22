@@ -74,7 +74,14 @@
 
 </body>
 <!-- 背景动画 -->
-<script type="text/javascript" src="/js/src/particle.js"></script>
+
+<script>
+        if (screen && screen.width > 750) {
+              document.write(unescape('%3Cscript%20type%3D%22text/javascript%22%20src%3D%22/js/src/particle.js%22%3E%3C/script%3E'));
+        }
+</script>
+
+<!-- <script type="text/javascript" src="/js/src/particle.js"></script> -->
 <!-- 奔溃欺骗 -->
 <script type="text/javascript" src="/js/src/Collapse_cheating.js"></script>
 <!-- 页面点击小红心 -->
