@@ -28,8 +28,8 @@ menu:
   home: /
   categories: /categories
   about: /about
-  archives: /archives
-  tags: /tags
+  #archives: /archives
+  #tags: /tags
   commonweal: /404.html
 
 
@@ -180,7 +180,7 @@ sidebar:
 
 links_title: Links
 links:
-  任伯安: https://zonghongyan.github.io/
+  仁伯安: https://zonghongyan.github.io/
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -199,7 +199,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: night eighties
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.

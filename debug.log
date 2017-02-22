@@ -8385,3 +8385,788 @@
 {"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":11316,"level":20,"msg":"Generator: category","time":"2017-02-22T02:27:48.587Z","v":0}
 {"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":11316,"level":20,"msg":"Generator: tag","time":"2017-02-22T02:27:48.587Z","v":0}
 {"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":11316,"level":20,"msg":"Generator: asset","time":"2017-02-22T02:27:48.588Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Hexo version: 3.2.2","time":"2017-02-22T02:43:15.695Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Working directory: F:\\yangkaik.github.io\\","time":"2017-02-22T02:43:15.698Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Config loaded: F:\\yangkaik.github.io\\_config.yml","time":"2017-02-22T02:43:15.868Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Plugin loaded: hexo-deployer-git","time":"2017-02-22T02:43:15.889Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Plugin loaded: hexo-generator-archive","time":"2017-02-22T02:43:15.894Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Plugin loaded: hexo-generator-category","time":"2017-02-22T02:43:15.896Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Plugin loaded: hexo-generator-tag","time":"2017-02-22T02:43:15.899Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Plugin loaded: hexo-generator-index","time":"2017-02-22T02:43:15.901Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Plugin loaded: hexo-renderer-marked","time":"2017-02-22T02:43:15.908Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Plugin loaded: hexo-renderer-ejs","time":"2017-02-22T02:43:15.913Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Plugin loaded: hexo-renderer-stylus","time":"2017-02-22T02:43:15.914Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Plugin loaded: hexo-server","time":"2017-02-22T02:43:16.001Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\full-image.js","time":"2017-02-22T02:43:16.002Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Script loaded: themes\\next\\scripts\\merge-configs.js","time":"2017-02-22T02:43:16.002Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\center-quote.js","time":"2017-02-22T02:43:16.003Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\group-pictures.js","time":"2017-02-22T02:43:16.004Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Loading database.","time":"2017-02-22T02:43:16.013Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":30,"msg":"Start processing","time":"2017-02-22T02:43:16.023Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: alert.ico","time":"2017-02-22T02:43:16.062Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: fx.ico","time":"2017-02-22T02:43:16.062Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: 404.html","time":"2017-02-22T02:43:16.142Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Theme config loaded.","time":"2017-02-22T02:43:16.156Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: _config.yml","time":"2017-02-22T02:43:16.157Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/css/main.styl","time":"2017-02-22T02:43:16.162Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/avatar.gif","time":"2017-02-22T02:43:16.163Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/cc-by-nc-nd.svg","time":"2017-02-22T02:43:16.163Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/cc-by-nc-sa.svg","time":"2017-02-22T02:43:16.163Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/cc-by-nc.svg","time":"2017-02-22T02:43:16.164Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/cc-by-nd.svg","time":"2017-02-22T02:43:16.164Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/cc-by-sa.svg","time":"2017-02-22T02:43:16.165Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/cc-by.svg","time":"2017-02-22T02:43:16.166Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/cc-zero.svg","time":"2017-02-22T02:43:16.166Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/placeholder.gif","time":"2017-02-22T02:43:16.167Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/loading.gif","time":"2017-02-22T02:43:16.167Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/quote-l.svg","time":"2017-02-22T02:43:16.167Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/quote-r.svg","time":"2017-02-22T02:43:16.167Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/searchicon.png","time":"2017-02-22T02:43:16.169Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: _posts/hello-world.md","time":"2017-02-22T02:43:16.203Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: about/index.md","time":"2017-02-22T02:43:16.203Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: archives/index.md","time":"2017-02-22T02:43:16.204Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_layout.swig","time":"2017-02-22T02:43:16.361Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/category.swig","time":"2017-02-22T02:43:16.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/archive.swig","time":"2017-02-22T02:43:16.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/page.swig","time":"2017-02-22T02:43:16.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/index.swig","time":"2017-02-22T02:43:16.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/tag.swig","time":"2017-02-22T02:43:16.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/post.swig","time":"2017-02-22T02:43:16.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: categories/index.md","time":"2017-02-22T02:43:16.372Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/de.yml","time":"2017-02-22T02:43:16.372Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/en.yml","time":"2017-02-22T02:43:16.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/default.yml","time":"2017-02-22T02:43:16.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/fr-FR.yml","time":"2017-02-22T02:43:16.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/id.yml","time":"2017-02-22T02:43:16.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/ru.yml","time":"2017-02-22T02:43:16.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/ja.yml","time":"2017-02-22T02:43:16.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/pt.yml","time":"2017-02-22T02:43:16.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/zh-Hans.yml","time":"2017-02-22T02:43:16.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/zh-hk.yml","time":"2017-02-22T02:43:16.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: languages/zh-tw.yml","time":"2017-02-22T02:43:16.374Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: tags/index.md","time":"2017-02-22T02:43:16.374Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/Collapse_cheating.js","time":"2017-02-22T02:43:16.382Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/affix.js","time":"2017-02-22T02:43:16.382Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/bootstrap.js","time":"2017-02-22T02:43:16.382Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/hook-duoshuo.js","time":"2017-02-22T02:43:16.383Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/love.js","time":"2017-02-22T02:43:16.383Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/motion.js","time":"2017-02-22T02:43:16.383Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/particle.js","time":"2017-02-22T02:43:16.384Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/post-details.js","time":"2017-02-22T02:43:16.384Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/scrollspy.js","time":"2017-02-22T02:43:16.384Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/utils.js","time":"2017-02-22T02:43:16.384Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fastclick/LICENSE","time":"2017-02-22T02:43:16.385Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fastclick/README.md","time":"2017-02-22T02:43:16.386Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fastclick/bower.json","time":"2017-02-22T02:43:16.386Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/HELP-US-OUT.txt","time":"2017-02-22T02:43:16.387Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/bower.json","time":"2017-02-22T02:43:16.388Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/CONTRIBUTING.md","time":"2017-02-22T02:43:16.388Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/README.md","time":"2017-02-22T02:43:16.389Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/bower.json","time":"2017-02-22T02:43:16.389Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/jquery.lazyload.js","time":"2017-02-22T02:43:16.390Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/jquery.scrollstop.js","time":"2017-02-22T02:43:16.390Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/velocity/bower.json","time":"2017-02-22T02:43:16.393Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/velocity/velocity.min.js","time":"2017-02-22T02:43:16.394Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/velocity/velocity.ui.js","time":"2017-02-22T02:43:16.394Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/velocity/velocity.ui.min.js","time":"2017-02-22T02:43:16.394Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/banner.jpg","time":"2017-02-22T02:43:16.409Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/jquery/index.js","time":"2017-02-22T02:43:16.410Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_macro/passage-end-tag.swig","time":"2017-02-22T02:43:16.451Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_macro/post.swig","time":"2017-02-22T02:43:16.452Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_macro/post-collapse.swig","time":"2017-02-22T02:43:16.452Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_macro/sidebar.swig","time":"2017-02-22T02:43:16.452Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_macro/wechat-subscriber.swig","time":"2017-02-22T02:43:16.452Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_macro/reward.swig","time":"2017-02-22T02:43:16.452Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/duoshuo-hot-articles.swig","time":"2017-02-22T02:43:16.452Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/footer.swig","time":"2017-02-22T02:43:16.453Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/comments.swig","time":"2017-02-22T02:43:16.454Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/head.swig","time":"2017-02-22T02:43:16.454Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/pagination.swig","time":"2017-02-22T02:43:16.454Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/header.swig","time":"2017-02-22T02:43:16.454Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/search.swig","time":"2017-02-22T02:43:16.454Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/baidu-push.swig","time":"2017-02-22T02:43:16.454Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/boostrap.swig","time":"2017-02-22T02:43:16.454Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/commons.swig","time":"2017-02-22T02:43:16.454Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/vendors.swig","time":"2017-02-22T02:43:16.454Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/js/src/schemes/pisces.js","time":"2017-02-22T02:43:16.459Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/blank.gif","time":"2017-02-22T02:43:16.459Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_loading.gif","time":"2017-02-22T02:43:16.459Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_loading@2x.gif","time":"2017-02-22T02:43:16.460Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_overlay.png","time":"2017-02-22T02:43:16.460Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_sprite.png","time":"2017-02-22T02:43:16.460Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_sprite@2x.png","time":"2017-02-22T02:43:16.461Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.css","time":"2017-02-22T02:43:16.461Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.js","time":"2017-02-22T02:43:16.461Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.pack.js","time":"2017-02-22T02:43:16.461Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fastclick/lib/fastclick.js","time":"2017-02-22T02:43:16.462Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fastclick/lib/fastclick.min.js","time":"2017-02-22T02:43:16.462Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.css","time":"2017-02-22T02:43:16.462Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.css.map","time":"2017-02-22T02:43:16.462Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.min.css","time":"2017-02-22T02:43:16.462Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.woff2","time":"2017-02-22T02:43:16.463Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/ua-parser-js/dist/ua-parser.min.js","time":"2017-02-22T02:43:16.463Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/ua-parser-js/dist/ua-parser.pack.js","time":"2017-02-22T02:43:16.463Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/schemes/muse.swig","time":"2017-02-22T02:43:16.467Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/schemes/mist.swig","time":"2017-02-22T02:43:16.467Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/FontAwesome.otf","time":"2017-02-22T02:43:16.468Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.eot","time":"2017-02-22T02:43:16.469Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.woff","time":"2017-02-22T02:43:16.470Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/velocity/velocity.js","time":"2017-02-22T02:43:16.470Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: images/avatar.png","time":"2017-02-22T02:43:16.470Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/search/swiftype.swig","time":"2017-02-22T02:43:16.509Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/head/external-fonts.swig","time":"2017-02-22T02:43:16.510Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/search/localsearch.swig","time":"2017-02-22T02:43:16.510Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/share/add-this.swig","time":"2017-02-22T02:43:16.510Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/search/tinysou.swig","time":"2017-02-22T02:43:16.510Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/share/duoshuo_share.swig","time":"2017-02-22T02:43:16.510Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/share/jiathis.swig","time":"2017-02-22T02:43:16.510Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_partials/share/baidushare.swig","time":"2017-02-22T02:43:16.510Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/pages/post-details.swig","time":"2017-02-22T02:43:16.510Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics.swig","time":"2017-02-22T02:43:16.511Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/schemes/pisces.swig","time":"2017-02-22T02:43:16.511Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/comments.swig","time":"2017-02-22T02:43:16.511Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/lean-analytics.swig","time":"2017-02-22T02:43:16.511Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/localsearch.swig","time":"2017-02-22T02:43:16.511Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/mathjax.swig","time":"2017-02-22T02:43:16.511Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/tinysou.swig","time":"2017-02-22T02:43:16.511Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/fancybox_buttons.png","time":"2017-02-22T02:43:16.517Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-buttons.css","time":"2017-02-22T02:43:16.524Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-buttons.js","time":"2017-02-22T02:43:16.525Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-media.js","time":"2017-02-22T02:43:16.525Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-thumbs.css","time":"2017-02-22T02:43:16.525Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-thumbs.js","time":"2017-02-22T02:43:16.525Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.ttf","time":"2017-02-22T02:43:16.525Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/cnzz-analytics.swig","time":"2017-02-22T02:43:16.534Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/busuanzi-counter.swig","time":"2017-02-22T02:43:16.534Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/baidu-analytics.swig","time":"2017-02-22T02:43:16.534Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/facebook-sdk.swig","time":"2017-02-22T02:43:16.534Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/comments/disqus.swig","time":"2017-02-22T02:43:16.534Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/tencent-analytics.swig","time":"2017-02-22T02:43:16.534Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/comments/duoshuo.swig","time":"2017-02-22T02:43:16.534Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/google-analytics.swig","time":"2017-02-22T02:43:16.534Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/avatar.png","time":"2017-02-22T02:43:16.535Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.svg","time":"2017-02-22T02:43:16.535Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Processed: source/images/banner2.jpg","time":"2017-02-22T02:43:16.536Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Generator: page","time":"2017-02-22T02:43:16.870Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Generator: post","time":"2017-02-22T02:43:16.870Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Generator: archive","time":"2017-02-22T02:43:16.870Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Generator: category","time":"2017-02-22T02:43:16.870Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Generator: tag","time":"2017-02-22T02:43:16.870Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Generator: index","time":"2017-02-22T02:43:16.870Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Generator: asset","time":"2017-02-22T02:43:16.871Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":30,"msg":"Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.","time":"2017-02-22T02:43:16.880Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Database saved","time":"2017-02-22T02:43:16.895Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T02:43:24.769Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T02:44:28.913Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T02:44:36.034Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T02:45:53.324Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":12388,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T02:46:00.358Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Hexo version: 3.2.2","time":"2017-02-22T03:22:21.512Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Working directory: F:\\yangkaik.github.io\\","time":"2017-02-22T03:22:21.515Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Config loaded: F:\\yangkaik.github.io\\_config.yml","time":"2017-02-22T03:22:21.687Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Plugin loaded: hexo-deployer-git","time":"2017-02-22T03:22:21.709Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Plugin loaded: hexo-generator-archive","time":"2017-02-22T03:22:21.713Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Plugin loaded: hexo-generator-category","time":"2017-02-22T03:22:21.716Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Plugin loaded: hexo-generator-index","time":"2017-02-22T03:22:21.719Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Plugin loaded: hexo-renderer-ejs","time":"2017-02-22T03:22:21.723Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Plugin loaded: hexo-generator-tag","time":"2017-02-22T03:22:21.724Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Plugin loaded: hexo-renderer-marked","time":"2017-02-22T03:22:21.731Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Plugin loaded: hexo-server","time":"2017-02-22T03:22:21.817Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Plugin loaded: hexo-renderer-stylus","time":"2017-02-22T03:22:21.818Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Script loaded: themes\\next\\scripts\\merge-configs.js","time":"2017-02-22T03:22:21.819Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\center-quote.js","time":"2017-02-22T03:22:21.820Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\full-image.js","time":"2017-02-22T03:22:21.820Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\group-pictures.js","time":"2017-02-22T03:22:21.821Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Loading database.","time":"2017-02-22T03:22:21.830Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":30,"msg":"Start processing","time":"2017-02-22T03:22:21.839Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: alert.ico","time":"2017-02-22T03:22:21.878Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: fx.ico","time":"2017-02-22T03:22:21.878Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: 404.html","time":"2017-02-22T03:22:21.960Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Theme config loaded.","time":"2017-02-22T03:22:21.975Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: _config.yml","time":"2017-02-22T03:22:21.976Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/css/main.styl","time":"2017-02-22T03:22:21.982Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/avatar.gif","time":"2017-02-22T03:22:21.982Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/cc-by-nc-sa.svg","time":"2017-02-22T03:22:21.983Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/cc-by-nc-nd.svg","time":"2017-02-22T03:22:21.983Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/cc-by-nc.svg","time":"2017-02-22T03:22:21.984Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/cc-by-nd.svg","time":"2017-02-22T03:22:21.984Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/cc-by-sa.svg","time":"2017-02-22T03:22:21.984Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/cc-zero.svg","time":"2017-02-22T03:22:21.985Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/cc-by.svg","time":"2017-02-22T03:22:21.985Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/loading.gif","time":"2017-02-22T03:22:21.985Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/placeholder.gif","time":"2017-02-22T03:22:21.986Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/quote-l.svg","time":"2017-02-22T03:22:21.986Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/quote-r.svg","time":"2017-02-22T03:22:21.988Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/searchicon.png","time":"2017-02-22T03:22:21.988Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: about/index.md","time":"2017-02-22T03:22:22.046Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: _posts/hello-world.md","time":"2017-02-22T03:22:22.047Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: archives/index.md","time":"2017-02-22T03:22:22.048Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: _posts/面向对象与原型.md","time":"2017-02-22T03:22:22.049Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_layout.swig","time":"2017-02-22T03:22:22.229Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/archive.swig","time":"2017-02-22T03:22:22.229Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/index.swig","time":"2017-02-22T03:22:22.229Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/category.swig","time":"2017-02-22T03:22:22.229Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/page.swig","time":"2017-02-22T03:22:22.229Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/post.swig","time":"2017-02-22T03:22:22.229Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/tag.swig","time":"2017-02-22T03:22:22.230Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: categories/index.md","time":"2017-02-22T03:22:22.234Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/de.yml","time":"2017-02-22T03:22:22.234Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/default.yml","time":"2017-02-22T03:22:22.234Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/en.yml","time":"2017-02-22T03:22:22.235Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/id.yml","time":"2017-02-22T03:22:22.235Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/fr-FR.yml","time":"2017-02-22T03:22:22.235Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/ja.yml","time":"2017-02-22T03:22:22.235Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/pt.yml","time":"2017-02-22T03:22:22.235Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/ru.yml","time":"2017-02-22T03:22:22.235Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/zh-Hans.yml","time":"2017-02-22T03:22:22.235Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/zh-hk.yml","time":"2017-02-22T03:22:22.235Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: languages/zh-tw.yml","time":"2017-02-22T03:22:22.235Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: tags/index.md","time":"2017-02-22T03:22:22.236Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/Collapse_cheating.js","time":"2017-02-22T03:22:22.251Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/affix.js","time":"2017-02-22T03:22:22.251Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/bootstrap.js","time":"2017-02-22T03:22:22.251Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/hook-duoshuo.js","time":"2017-02-22T03:22:22.251Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/love.js","time":"2017-02-22T03:22:22.252Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/motion.js","time":"2017-02-22T03:22:22.252Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/particle.js","time":"2017-02-22T03:22:22.252Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/post-details.js","time":"2017-02-22T03:22:22.253Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/utils.js","time":"2017-02-22T03:22:22.253Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/scrollspy.js","time":"2017-02-22T03:22:22.254Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fastclick/LICENSE","time":"2017-02-22T03:22:22.258Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fastclick/README.md","time":"2017-02-22T03:22:22.258Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fastclick/bower.json","time":"2017-02-22T03:22:22.258Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/HELP-US-OUT.txt","time":"2017-02-22T03:22:22.260Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/bower.json","time":"2017-02-22T03:22:22.261Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/CONTRIBUTING.md","time":"2017-02-22T03:22:22.262Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/README.md","time":"2017-02-22T03:22:22.263Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/jquery.lazyload.js","time":"2017-02-22T03:22:22.264Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/bower.json","time":"2017-02-22T03:22:22.264Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/jquery.scrollstop.js","time":"2017-02-22T03:22:22.266Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/velocity/bower.json","time":"2017-02-22T03:22:22.267Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/velocity/velocity.min.js","time":"2017-02-22T03:22:22.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/velocity/velocity.ui.js","time":"2017-02-22T03:22:22.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/velocity/velocity.ui.min.js","time":"2017-02-22T03:22:22.269Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/banner.jpg","time":"2017-02-22T03:22:22.282Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/jquery/index.js","time":"2017-02-22T03:22:22.283Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_macro/passage-end-tag.swig","time":"2017-02-22T03:22:22.328Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_macro/post-collapse.swig","time":"2017-02-22T03:22:22.328Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_macro/post.swig","time":"2017-02-22T03:22:22.328Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_macro/sidebar.swig","time":"2017-02-22T03:22:22.328Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_macro/reward.swig","time":"2017-02-22T03:22:22.328Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_macro/wechat-subscriber.swig","time":"2017-02-22T03:22:22.328Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/comments.swig","time":"2017-02-22T03:22:22.329Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/duoshuo-hot-articles.swig","time":"2017-02-22T03:22:22.329Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/footer.swig","time":"2017-02-22T03:22:22.329Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/head.swig","time":"2017-02-22T03:22:22.329Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/header.swig","time":"2017-02-22T03:22:22.329Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/pagination.swig","time":"2017-02-22T03:22:22.329Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/search.swig","time":"2017-02-22T03:22:22.329Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/boostrap.swig","time":"2017-02-22T03:22:22.329Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/baidu-push.swig","time":"2017-02-22T03:22:22.329Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/commons.swig","time":"2017-02-22T03:22:22.330Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/vendors.swig","time":"2017-02-22T03:22:22.330Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/js/src/schemes/pisces.js","time":"2017-02-22T03:22:22.334Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/blank.gif","time":"2017-02-22T03:22:22.334Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_loading.gif","time":"2017-02-22T03:22:22.335Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_loading@2x.gif","time":"2017-02-22T03:22:22.336Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_overlay.png","time":"2017-02-22T03:22:22.336Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_sprite.png","time":"2017-02-22T03:22:22.337Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_sprite@2x.png","time":"2017-02-22T03:22:22.337Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.css","time":"2017-02-22T03:22:22.338Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.js","time":"2017-02-22T03:22:22.338Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.pack.js","time":"2017-02-22T03:22:22.338Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fastclick/lib/fastclick.js","time":"2017-02-22T03:22:22.338Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fastclick/lib/fastclick.min.js","time":"2017-02-22T03:22:22.339Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.css","time":"2017-02-22T03:22:22.339Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.css.map","time":"2017-02-22T03:22:22.339Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.min.css","time":"2017-02-22T03:22:22.340Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.woff2","time":"2017-02-22T03:22:22.340Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/ua-parser-js/dist/ua-parser.min.js","time":"2017-02-22T03:22:22.340Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/ua-parser-js/dist/ua-parser.pack.js","time":"2017-02-22T03:22:22.340Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/schemes/muse.swig","time":"2017-02-22T03:22:22.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/schemes/mist.swig","time":"2017-02-22T03:22:22.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/FontAwesome.otf","time":"2017-02-22T03:22:22.347Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.eot","time":"2017-02-22T03:22:22.347Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.woff","time":"2017-02-22T03:22:22.347Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/velocity/velocity.js","time":"2017-02-22T03:22:22.348Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/head/external-fonts.swig","time":"2017-02-22T03:22:22.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/search/localsearch.swig","time":"2017-02-22T03:22:22.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/search/swiftype.swig","time":"2017-02-22T03:22:22.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/search/tinysou.swig","time":"2017-02-22T03:22:22.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/share/add-this.swig","time":"2017-02-22T03:22:22.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/share/baidushare.swig","time":"2017-02-22T03:22:22.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/share/duoshuo_share.swig","time":"2017-02-22T03:22:22.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_partials/share/jiathis.swig","time":"2017-02-22T03:22:22.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/pages/post-details.swig","time":"2017-02-22T03:22:22.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics.swig","time":"2017-02-22T03:22:22.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/schemes/pisces.swig","time":"2017-02-22T03:22:22.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/comments.swig","time":"2017-02-22T03:22:22.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/lean-analytics.swig","time":"2017-02-22T03:22:22.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/localsearch.swig","time":"2017-02-22T03:22:22.363Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/mathjax.swig","time":"2017-02-22T03:22:22.364Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/tinysou.swig","time":"2017-02-22T03:22:22.364Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: images/avatar.png","time":"2017-02-22T03:22:22.365Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/fancybox_buttons.png","time":"2017-02-22T03:22:22.372Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-buttons.css","time":"2017-02-22T03:22:22.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-buttons.js","time":"2017-02-22T03:22:22.373Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-media.js","time":"2017-02-22T03:22:22.374Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-thumbs.css","time":"2017-02-22T03:22:22.374Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-thumbs.js","time":"2017-02-22T03:22:22.374Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.ttf","time":"2017-02-22T03:22:22.374Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/baidu-analytics.swig","time":"2017-02-22T03:22:22.415Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/busuanzi-counter.swig","time":"2017-02-22T03:22:22.415Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/cnzz-analytics.swig","time":"2017-02-22T03:22:22.415Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/facebook-sdk.swig","time":"2017-02-22T03:22:22.415Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/google-analytics.swig","time":"2017-02-22T03:22:22.415Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/tencent-analytics.swig","time":"2017-02-22T03:22:22.415Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/comments/disqus.swig","time":"2017-02-22T03:22:22.415Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: layout/_scripts/third-party/comments/duoshuo.swig","time":"2017-02-22T03:22:22.415Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/avatar.png","time":"2017-02-22T03:22:22.415Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.svg","time":"2017-02-22T03:22:22.416Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: source/images/banner2.jpg","time":"2017-02-22T03:22:22.417Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: page","time":"2017-02-22T03:22:22.798Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: post","time":"2017-02-22T03:22:22.799Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: archive","time":"2017-02-22T03:22:22.799Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: category","time":"2017-02-22T03:22:22.799Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: index","time":"2017-02-22T03:22:22.799Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: tag","time":"2017-02-22T03:22:22.799Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: asset","time":"2017-02-22T03:22:22.800Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":30,"msg":"Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.","time":"2017-02-22T03:22:22.809Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Database saved","time":"2017-02-22T03:22:22.830Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T03:22:30.553Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Theme config loaded.","time":"2017-02-22T03:24:59.771Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: _config.yml","time":"2017-02-22T03:24:59.771Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: page","time":"2017-02-22T03:24:59.896Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: post","time":"2017-02-22T03:24:59.896Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: archive","time":"2017-02-22T03:24:59.896Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: category","time":"2017-02-22T03:24:59.896Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: index","time":"2017-02-22T03:24:59.896Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: tag","time":"2017-02-22T03:24:59.896Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: asset","time":"2017-02-22T03:24:59.896Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Theme config loaded.","time":"2017-02-22T03:24:59.958Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: _config.yml","time":"2017-02-22T03:24:59.958Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: page","time":"2017-02-22T03:25:00.083Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: post","time":"2017-02-22T03:25:00.083Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: archive","time":"2017-02-22T03:25:00.083Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: category","time":"2017-02-22T03:25:00.083Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: index","time":"2017-02-22T03:25:00.083Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: tag","time":"2017-02-22T03:25:00.083Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: asset","time":"2017-02-22T03:25:00.083Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Theme config loaded.","time":"2017-02-22T03:25:00.130Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Processed: _config.yml","time":"2017-02-22T03:25:00.130Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: page","time":"2017-02-22T03:25:00.255Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: post","time":"2017-02-22T03:25:00.255Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: archive","time":"2017-02-22T03:25:00.255Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: category","time":"2017-02-22T03:25:00.255Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: index","time":"2017-02-22T03:25:00.255Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: tag","time":"2017-02-22T03:25:00.255Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":8384,"level":20,"msg":"Generator: asset","time":"2017-02-22T03:25:00.271Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Hexo version: 3.2.2","time":"2017-02-22T03:25:08.526Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Working directory: F:\\yangkaik.github.io\\","time":"2017-02-22T03:25:08.526Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Config loaded: F:\\yangkaik.github.io\\_config.yml","time":"2017-02-22T03:25:08.698Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Plugin loaded: hexo-deployer-git","time":"2017-02-22T03:25:08.714Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Plugin loaded: hexo-generator-category","time":"2017-02-22T03:25:08.714Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Plugin loaded: hexo-generator-index","time":"2017-02-22T03:25:08.714Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Plugin loaded: hexo-generator-archive","time":"2017-02-22T03:25:08.729Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Plugin loaded: hexo-renderer-stylus","time":"2017-02-22T03:25:08.729Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Plugin loaded: hexo-renderer-marked","time":"2017-02-22T03:25:08.729Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Plugin loaded: hexo-renderer-ejs","time":"2017-02-22T03:25:08.729Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Plugin loaded: hexo-generator-tag","time":"2017-02-22T03:25:08.745Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Plugin loaded: hexo-server","time":"2017-02-22T03:25:08.823Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Script loaded: themes\\next\\scripts\\merge-configs.js","time":"2017-02-22T03:25:08.823Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\full-image.js","time":"2017-02-22T03:25:08.823Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\center-quote.js","time":"2017-02-22T03:25:08.823Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\group-pictures.js","time":"2017-02-22T03:25:08.823Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Loading database.","time":"2017-02-22T03:25:08.839Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":30,"msg":"Start processing","time":"2017-02-22T03:25:08.917Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: 404.html","time":"2017-02-22T03:25:08.979Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: alert.ico","time":"2017-02-22T03:25:08.995Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: fx.ico","time":"2017-02-22T03:25:08.995Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: _posts/hello-world.md","time":"2017-02-22T03:25:09.026Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: about/index.md","time":"2017-02-22T03:25:09.026Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: _posts/面向对象与原型.md","time":"2017-02-22T03:25:09.026Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: archives/index.md","time":"2017-02-22T03:25:09.026Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: categories/index.md","time":"2017-02-22T03:25:09.026Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: tags/index.md","time":"2017-02-22T03:25:09.026Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Theme config loaded.","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: _config.yml","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/css/main.styl","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/avatar.gif","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/cc-by-nc-nd.svg","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/cc-by-nc-sa.svg","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/cc-by-nc.svg","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/cc-by-sa.svg","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/cc-by-nd.svg","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/cc-by.svg","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/cc-zero.svg","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/loading.gif","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/placeholder.gif","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/quote-l.svg","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/quote-r.svg","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/searchicon.png","time":"2017-02-22T03:25:09.073Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_layout.swig","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/category.swig","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/archive.swig","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/index.swig","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/page.swig","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/post.swig","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/tag.swig","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/de.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/en.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/default.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/fr-FR.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/ja.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/id.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/pt.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/ru.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/zh-Hans.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/zh-tw.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: languages/zh-hk.yml","time":"2017-02-22T03:25:09.268Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/Collapse_cheating.js","time":"2017-02-22T03:25:09.283Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/affix.js","time":"2017-02-22T03:25:09.283Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/bootstrap.js","time":"2017-02-22T03:25:09.283Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/hook-duoshuo.js","time":"2017-02-22T03:25:09.283Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/love.js","time":"2017-02-22T03:25:09.283Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/motion.js","time":"2017-02-22T03:25:09.283Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/particle.js","time":"2017-02-22T03:25:09.283Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/post-details.js","time":"2017-02-22T03:25:09.283Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/scrollspy.js","time":"2017-02-22T03:25:09.283Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/utils.js","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/HELP-US-OUT.txt","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/bower.json","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fastclick/LICENSE","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fastclick/README.md","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fastclick/bower.json","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/README.md","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/CONTRIBUTING.md","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/bower.json","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/jquery.lazyload.js","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/jquery.scrollstop.js","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/velocity/bower.json","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/velocity/velocity.min.js","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/velocity/velocity.ui.js","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/velocity/velocity.ui.min.js","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/banner.jpg","time":"2017-02-22T03:25:09.299Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_macro/post.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_macro/post-collapse.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_macro/passage-end-tag.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_macro/reward.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_macro/wechat-subscriber.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_macro/sidebar.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/comments.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/footer.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/duoshuo-hot-articles.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/head.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/header.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/pagination.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/search.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/baidu-push.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/boostrap.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/commons.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/vendors.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/jquery/index.js","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/schemes/muse.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/schemes/mist.swig","time":"2017-02-22T03:25:09.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/js/src/schemes/pisces.js","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_loading.gif","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/blank.gif","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_overlay.png","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_loading@2x.gif","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_sprite.png","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_sprite@2x.png","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.css","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.js","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.pack.js","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.css.map","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.css","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.min.css","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.woff2","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fastclick/lib/fastclick.js","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fastclick/lib/fastclick.min.js","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/ua-parser-js/dist/ua-parser.pack.js","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/ua-parser-js/dist/ua-parser.min.js","time":"2017-02-22T03:25:09.362Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/search/localsearch.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/search/swiftype.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/head/external-fonts.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/search/tinysou.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/share/add-this.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/share/jiathis.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/share/baidushare.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_partials/share/duoshuo_share.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/pages/post-details.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/schemes/pisces.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/comments.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/lean-analytics.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/localsearch.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/mathjax.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/tinysou.swig","time":"2017-02-22T03:25:09.377Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: images/avatar.png","time":"2017-02-22T03:25:09.393Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/FontAwesome.otf","time":"2017-02-22T03:25:09.393Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.eot","time":"2017-02-22T03:25:09.393Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.woff","time":"2017-02-22T03:25:09.393Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/velocity/velocity.js","time":"2017-02-22T03:25:09.393Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/fancybox_buttons.png","time":"2017-02-22T03:25:09.408Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-buttons.css","time":"2017-02-22T03:25:09.408Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-media.js","time":"2017-02-22T03:25:09.408Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-buttons.js","time":"2017-02-22T03:25:09.408Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-thumbs.css","time":"2017-02-22T03:25:09.408Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-thumbs.js","time":"2017-02-22T03:25:09.408Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.ttf","time":"2017-02-22T03:25:09.408Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/cnzz-analytics.swig","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/busuanzi-counter.swig","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/baidu-analytics.swig","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/facebook-sdk.swig","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/tencent-analytics.swig","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/google-analytics.swig","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/comments/duoshuo.swig","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: layout/_scripts/third-party/comments/disqus.swig","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/avatar.png","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.svg","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: source/images/banner2.jpg","time":"2017-02-22T03:25:09.424Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: page","time":"2017-02-22T03:25:09.627Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: post","time":"2017-02-22T03:25:09.627Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: category","time":"2017-02-22T03:25:09.627Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: index","time":"2017-02-22T03:25:09.627Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: archive","time":"2017-02-22T03:25:09.627Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: tag","time":"2017-02-22T03:25:09.627Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: asset","time":"2017-02-22T03:25:09.627Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":30,"msg":"Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.","time":"2017-02-22T03:25:09.643Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Database saved","time":"2017-02-22T03:25:09.658Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T03:25:11.628Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: _posts/20170222.md","time":"2017-02-22T03:29:31.346Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: _posts/面向对象与原型.md","time":"2017-02-22T03:29:31.494Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: page","time":"2017-02-22T03:29:31.521Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: post","time":"2017-02-22T03:29:31.521Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: category","time":"2017-02-22T03:29:31.521Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: index","time":"2017-02-22T03:29:31.521Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: archive","time":"2017-02-22T03:29:31.521Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: tag","time":"2017-02-22T03:29:31.521Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: asset","time":"2017-02-22T03:29:31.521Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: page","time":"2017-02-22T03:29:31.615Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: post","time":"2017-02-22T03:29:31.615Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: category","time":"2017-02-22T03:29:31.615Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: index","time":"2017-02-22T03:29:31.615Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: archive","time":"2017-02-22T03:29:31.615Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: tag","time":"2017-02-22T03:29:31.615Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: asset","time":"2017-02-22T03:29:31.615Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: _posts/20170222.md","time":"2017-02-22T06:28:06.374Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: page","time":"2017-02-22T06:28:06.546Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: post","time":"2017-02-22T06:28:06.546Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: category","time":"2017-02-22T06:28:06.546Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: index","time":"2017-02-22T06:28:06.546Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: archive","time":"2017-02-22T06:28:06.546Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: tag","time":"2017-02-22T06:28:06.546Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: asset","time":"2017-02-22T06:28:06.546Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: _posts/20170222.md","time":"2017-02-22T06:28:06.561Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: page","time":"2017-02-22T06:28:06.718Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: post","time":"2017-02-22T06:28:06.718Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: category","time":"2017-02-22T06:28:06.718Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: index","time":"2017-02-22T06:28:06.718Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: archive","time":"2017-02-22T06:28:06.718Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: tag","time":"2017-02-22T06:28:06.718Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: asset","time":"2017-02-22T06:28:06.733Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: _posts/20170222.md","time":"2017-02-22T06:28:06.749Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: page","time":"2017-02-22T06:28:06.890Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: post","time":"2017-02-22T06:28:06.890Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: category","time":"2017-02-22T06:28:06.890Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: index","time":"2017-02-22T06:28:06.890Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: archive","time":"2017-02-22T06:28:06.890Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: tag","time":"2017-02-22T06:28:06.890Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: asset","time":"2017-02-22T06:28:06.905Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: _posts/20170222.md","time":"2017-02-22T06:28:06.936Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: page","time":"2017-02-22T06:28:07.093Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: post","time":"2017-02-22T06:28:07.093Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: category","time":"2017-02-22T06:28:07.093Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: index","time":"2017-02-22T06:28:07.093Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: archive","time":"2017-02-22T06:28:07.093Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: tag","time":"2017-02-22T06:28:07.093Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: asset","time":"2017-02-22T06:28:07.093Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Processed: _posts/20170222.md","time":"2017-02-22T06:28:07.124Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: page","time":"2017-02-22T06:28:07.265Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: post","time":"2017-02-22T06:28:07.265Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: category","time":"2017-02-22T06:28:07.265Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: index","time":"2017-02-22T06:28:07.265Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: archive","time":"2017-02-22T06:28:07.265Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: tag","time":"2017-02-22T06:28:07.265Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":10444,"level":20,"msg":"Generator: asset","time":"2017-02-22T06:28:07.265Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Hexo version: 3.2.2","time":"2017-02-22T06:28:16.297Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Working directory: F:\\yangkaik.github.io\\","time":"2017-02-22T06:28:16.301Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Config loaded: F:\\yangkaik.github.io\\_config.yml","time":"2017-02-22T06:28:16.476Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Plugin loaded: hexo-deployer-git","time":"2017-02-22T06:28:16.497Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Plugin loaded: hexo-generator-index","time":"2017-02-22T06:28:16.502Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Plugin loaded: hexo-generator-category","time":"2017-02-22T06:28:16.505Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Plugin loaded: hexo-generator-tag","time":"2017-02-22T06:28:16.507Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Plugin loaded: hexo-renderer-ejs","time":"2017-02-22T06:28:16.511Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Plugin loaded: hexo-generator-archive","time":"2017-02-22T06:28:16.514Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Plugin loaded: hexo-renderer-marked","time":"2017-02-22T06:28:16.522Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Plugin loaded: hexo-renderer-stylus","time":"2017-02-22T06:28:16.524Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Plugin loaded: hexo-server","time":"2017-02-22T06:28:16.612Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Script loaded: themes\\next\\scripts\\merge-configs.js","time":"2017-02-22T06:28:16.613Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\center-quote.js","time":"2017-02-22T06:28:16.613Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\full-image.js","time":"2017-02-22T06:28:16.614Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Script loaded: themes\\next\\scripts\\tags\\group-pictures.js","time":"2017-02-22T06:28:16.615Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Loading database.","time":"2017-02-22T06:28:16.625Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":30,"msg":"Start processing","time":"2017-02-22T06:28:16.715Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: 404.html","time":"2017-02-22T06:28:16.773Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: alert.ico","time":"2017-02-22T06:28:16.774Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: fx.ico","time":"2017-02-22T06:28:16.791Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: _posts/hello-world.md","time":"2017-02-22T06:28:16.810Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: about/index.md","time":"2017-02-22T06:28:16.810Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: categories/index.md","time":"2017-02-22T06:28:16.810Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: archives/index.md","time":"2017-02-22T06:28:16.811Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: tags/index.md","time":"2017-02-22T06:28:16.829Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Theme config loaded.","time":"2017-02-22T06:28:16.881Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: _posts/20170222.md","time":"2017-02-22T06:28:16.883Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: _config.yml","time":"2017-02-22T06:28:16.883Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/css/main.styl","time":"2017-02-22T06:28:16.883Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/avatar.gif","time":"2017-02-22T06:28:16.886Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/cc-by-nc-sa.svg","time":"2017-02-22T06:28:16.887Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/cc-by-nc-nd.svg","time":"2017-02-22T06:28:16.888Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/cc-by-nc.svg","time":"2017-02-22T06:28:16.889Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/cc-by-sa.svg","time":"2017-02-22T06:28:16.891Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/cc-by-nd.svg","time":"2017-02-22T06:28:16.892Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/cc-by.svg","time":"2017-02-22T06:28:16.893Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/cc-zero.svg","time":"2017-02-22T06:28:16.894Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/loading.gif","time":"2017-02-22T06:28:16.894Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/placeholder.gif","time":"2017-02-22T06:28:16.894Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/quote-l.svg","time":"2017-02-22T06:28:16.894Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/quote-r.svg","time":"2017-02-22T06:28:16.895Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/searchicon.png","time":"2017-02-22T06:28:16.895Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/archive.swig","time":"2017-02-22T06:28:17.087Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_layout.swig","time":"2017-02-22T06:28:17.087Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/category.swig","time":"2017-02-22T06:28:17.087Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/index.swig","time":"2017-02-22T06:28:17.087Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/page.swig","time":"2017-02-22T06:28:17.087Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/post.swig","time":"2017-02-22T06:28:17.088Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/tag.swig","time":"2017-02-22T06:28:17.088Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/de.yml","time":"2017-02-22T06:28:17.097Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/default.yml","time":"2017-02-22T06:28:17.097Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/en.yml","time":"2017-02-22T06:28:17.097Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/fr-FR.yml","time":"2017-02-22T06:28:17.097Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/id.yml","time":"2017-02-22T06:28:17.097Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/ja.yml","time":"2017-02-22T06:28:17.097Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/pt.yml","time":"2017-02-22T06:28:17.097Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/zh-hk.yml","time":"2017-02-22T06:28:17.097Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/ru.yml","time":"2017-02-22T06:28:17.097Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/zh-Hans.yml","time":"2017-02-22T06:28:17.098Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: languages/zh-tw.yml","time":"2017-02-22T06:28:17.098Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/Collapse_cheating.js","time":"2017-02-22T06:28:17.098Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/affix.js","time":"2017-02-22T06:28:17.098Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/bootstrap.js","time":"2017-02-22T06:28:17.098Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/hook-duoshuo.js","time":"2017-02-22T06:28:17.098Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/love.js","time":"2017-02-22T06:28:17.099Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/motion.js","time":"2017-02-22T06:28:17.099Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/particle.js","time":"2017-02-22T06:28:17.099Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/post-details.js","time":"2017-02-22T06:28:17.099Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/scrollspy.js","time":"2017-02-22T06:28:17.100Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/utils.js","time":"2017-02-22T06:28:17.100Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fastclick/README.md","time":"2017-02-22T06:28:17.100Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fastclick/bower.json","time":"2017-02-22T06:28:17.100Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fastclick/LICENSE","time":"2017-02-22T06:28:17.101Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/HELP-US-OUT.txt","time":"2017-02-22T06:28:17.101Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/bower.json","time":"2017-02-22T06:28:17.101Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/CONTRIBUTING.md","time":"2017-02-22T06:28:17.101Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/README.md","time":"2017-02-22T06:28:17.101Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/bower.json","time":"2017-02-22T06:28:17.102Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/jquery.lazyload.js","time":"2017-02-22T06:28:17.102Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/jquery_lazyload/jquery.scrollstop.js","time":"2017-02-22T06:28:17.102Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/velocity/bower.json","time":"2017-02-22T06:28:17.102Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/velocity/velocity.min.js","time":"2017-02-22T06:28:17.103Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/velocity/velocity.ui.js","time":"2017-02-22T06:28:17.103Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/velocity/velocity.ui.min.js","time":"2017-02-22T06:28:17.103Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/banner.jpg","time":"2017-02-22T06:28:17.115Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/jquery/index.js","time":"2017-02-22T06:28:17.116Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_macro/post-collapse.swig","time":"2017-02-22T06:28:17.160Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_macro/reward.swig","time":"2017-02-22T06:28:17.160Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_macro/passage-end-tag.swig","time":"2017-02-22T06:28:17.160Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_macro/sidebar.swig","time":"2017-02-22T06:28:17.160Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_macro/post.swig","time":"2017-02-22T06:28:17.160Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_macro/wechat-subscriber.swig","time":"2017-02-22T06:28:17.160Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/duoshuo-hot-articles.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/comments.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/footer.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/header.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/head.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/pagination.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/search.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/baidu-push.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/commons.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/boostrap.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/vendors.swig","time":"2017-02-22T06:28:17.161Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/js/src/schemes/pisces.js","time":"2017-02-22T06:28:17.167Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/blank.gif","time":"2017-02-22T06:28:17.168Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_loading.gif","time":"2017-02-22T06:28:17.169Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_loading@2x.gif","time":"2017-02-22T06:28:17.169Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_overlay.png","time":"2017-02-22T06:28:17.170Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_sprite.png","time":"2017-02-22T06:28:17.170Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/fancybox_sprite@2x.png","time":"2017-02-22T06:28:17.177Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.css","time":"2017-02-22T06:28:17.177Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.js","time":"2017-02-22T06:28:17.177Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/jquery.fancybox.pack.js","time":"2017-02-22T06:28:17.178Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fastclick/lib/fastclick.min.js","time":"2017-02-22T06:28:17.178Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fastclick/lib/fastclick.js","time":"2017-02-22T06:28:17.179Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.woff2","time":"2017-02-22T06:28:17.181Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.css","time":"2017-02-22T06:28:17.181Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.min.css","time":"2017-02-22T06:28:17.182Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/css/font-awesome.css.map","time":"2017-02-22T06:28:17.182Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/ua-parser-js/dist/ua-parser.min.js","time":"2017-02-22T06:28:17.183Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/ua-parser-js/dist/ua-parser.pack.js","time":"2017-02-22T06:28:17.183Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/schemes/muse.swig","time":"2017-02-22T06:28:17.189Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/schemes/mist.swig","time":"2017-02-22T06:28:17.189Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/FontAwesome.otf","time":"2017-02-22T06:28:17.190Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.eot","time":"2017-02-22T06:28:17.191Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.woff","time":"2017-02-22T06:28:17.193Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/velocity/velocity.js","time":"2017-02-22T06:28:17.193Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/head/external-fonts.swig","time":"2017-02-22T06:28:17.207Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/search/localsearch.swig","time":"2017-02-22T06:28:17.208Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/search/tinysou.swig","time":"2017-02-22T06:28:17.208Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/share/add-this.swig","time":"2017-02-22T06:28:17.208Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/search/swiftype.swig","time":"2017-02-22T06:28:17.208Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/share/duoshuo_share.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/share/baidushare.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_partials/share/jiathis.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/pages/post-details.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/schemes/pisces.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/comments.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/localsearch.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/lean-analytics.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/tinysou.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/mathjax.swig","time":"2017-02-22T06:28:17.209Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: images/avatar.png","time":"2017-02-22T06:28:17.220Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/fancybox_buttons.png","time":"2017-02-22T06:28:17.222Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-buttons.js","time":"2017-02-22T06:28:17.223Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-buttons.css","time":"2017-02-22T06:28:17.224Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-media.js","time":"2017-02-22T06:28:17.224Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-thumbs.css","time":"2017-02-22T06:28:17.225Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/fancybox/source/helpers/jquery.fancybox-thumbs.js","time":"2017-02-22T06:28:17.227Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.ttf","time":"2017-02-22T06:28:17.228Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: _posts/面向对象与原型.md","time":"2017-02-22T06:28:17.228Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/busuanzi-counter.swig","time":"2017-02-22T06:28:17.262Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/cnzz-analytics.swig","time":"2017-02-22T06:28:17.262Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/baidu-analytics.swig","time":"2017-02-22T06:28:17.262Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/google-analytics.swig","time":"2017-02-22T06:28:17.262Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/comments/disqus.swig","time":"2017-02-22T06:28:17.262Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/facebook-sdk.swig","time":"2017-02-22T06:28:17.262Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/analytics/tencent-analytics.swig","time":"2017-02-22T06:28:17.262Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: layout/_scripts/third-party/comments/duoshuo.swig","time":"2017-02-22T06:28:17.262Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/avatar.png","time":"2017-02-22T06:28:17.263Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/vendors/font-awesome/fonts/fontawesome-webfont.svg","time":"2017-02-22T06:28:17.263Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Processed: source/images/banner2.jpg","time":"2017-02-22T06:28:17.264Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Generator: page","time":"2017-02-22T06:28:17.561Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Generator: post","time":"2017-02-22T06:28:17.561Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Generator: index","time":"2017-02-22T06:28:17.561Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Generator: category","time":"2017-02-22T06:28:17.561Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Generator: tag","time":"2017-02-22T06:28:17.561Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Generator: archive","time":"2017-02-22T06:28:17.561Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Generator: asset","time":"2017-02-22T06:28:17.563Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":30,"msg":"Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.","time":"2017-02-22T06:28:17.571Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Database saved","time":"2017-02-22T06:28:17.586Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T06:28:23.481Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Rendering post: 2017/02/22/20170222/index.html","time":"2017-02-22T06:28:50.657Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T06:38:51.098Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Rendering page: categories/index.html","time":"2017-02-22T06:38:52.917Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Rendering page: about/index.html","time":"2017-02-22T06:38:55.332Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T06:38:56.968Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-4RKNC4E","pid":1136,"level":20,"msg":"Rendering index: index.html","time":"2017-02-22T06:40:33.059Z","v":0}
