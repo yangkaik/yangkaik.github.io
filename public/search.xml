@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[git的日常使用（记录我的git使用）]]></title>
+      <url>%2F2017%2F02%2F22%2F20170224%2F</url>
+      <content type="text"><![CDATA[取得项目的 Git 仓库有两种取得 Git 项目仓库的方法。第一种是在现存的目录下，通过导入所有文件来创建新的 Git 仓库。第二种是从已有的 Git 仓库克隆出一个新的镜像仓库来。（这边先介绍第二种） 从现有仓库克隆如果想对某个开源项目出一份力，可以先把该项目的 Git 仓库复制一份出来，这就需要用到 git clone 命令。如果你熟悉其他的 VCS 比如 Subversion，你可能已经注意到这里使用的是 clone 而不是 checkout。这是个非常重要的差别，Git 收取的是项目历史的所有数据（每一个文件的每一个版本），服务器上有的数据克隆之后本地也都有了。实际上，即便服务器的磁盘发生故障，用任何一个克隆出来的客户端都可以重建服务器上的仓库，回到当初克隆时的状态（虽然可能会丢失某些服务器端的挂钩设置，但所有版本的数据仍旧还在）。 克隆仓库的命令格式为 git clone[url]。比如，要我的博客项目，可以用下面的命令 1$ git clone git@github.com:yangkaik/yangkaik.github.io.git 这会在当前目录下创建一个名为yangkaik.github.io的目录，这里的地址如下图所示 其中包含一个 .git 的目录，用于保存下载下来的所有版本记录，然后从中取出最新版本的文件拷贝。如果进入这个新建的目录，你会看到项目中的所有文件已经在里边了，准备好后续的开发和使用。 如果希望在克隆的时候，自己定义要新建的项目目录名称，可以在上面的命令末尾指定新的名字： 1$ git clone git@github.com:yangkaik/yangkaik.github.io.git newname 唯一的差别就是，现在新建的目录成了 newname，其他的都和上边的一样。]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[面向对象与原型]]></title>
+      <url>%2F2016%2F07%2F14%2F20170222%2F</url>
+      <content type="text"><![CDATA[创建对象的几种方法 基本对象的创建方法 最基础的对象创建方式123456var box = new Object(); //创建对象 box.name= &apos;Lee&apos;; //添加属性 box.age=100; box.run= function()&#123; return this.name+this.age+&apos;运行中&apos; //this表示当前作用域下对象 &#125; 使用字面量创建 作为一门脚本语言那应该有和其他兄弟们一样的范儿，于是出现了对象字面量的定义方式：1234567var box = &#123; name : &quot;tangwei&quot;, bar : &quot;js&quot;, sayWhat : function() &#123; console.log(this.name + &quot;said:love you forever&quot;); &#125;&#125; 工厂模式 字面量实际上是我们在实际中最常用的对象定义方式，但是我要有好多拥有相似属性的对象（想想都让人激动。。。）怎么办呢？那要是一个个的定义，就会产生大量的代码，何不建个工厂，批量的生产出我们的对象呢，于是，javascript世界中“工厂模式”诞生了！1234567891011function creationGf(name,bar)&#123; var o = new Object(); o.name = name; o.bar = bar; 0.sayWhat = function() &#123; alert(this.name + &quot;said:love you forver&quot;); &#125; return o; //返回对象引用&#125;var Gf1 = creationGf(&quot;binbing&quot;,&quot;d&quot;);var Gf2 = creationGf(&quot;bi&quot;,&quot;ddd&quot;); 工厂模式解决了集中实例化的问题，但还有一个问题，那就是识别问题，因为根本无法搞清楚他们到底是哪个对象的实例。 如果我们再创建一个 creationGf2对象1var Gf3 = creationGf(&quot;aaa&quot;,&quot;xxx&quot;); 这时候我们无法搞清Gf3是属于creationGf对象还是属于creationGf21234alert(typeof Gf1); //Objectalert(typeof Gf2); //Objectalert(typeof Gf3); //Objectalert(Gf1 instanceof Object); //true 构建函数 123456789function Gf(name,bar)&#123; this.name = name; this.bar = bar; this.sayWhat = function()&#123; alert(this.name + &quot;said:love you forever&quot;); &#125;&#125;var gf1 = new Gf(&quot;vivian&quot;,&quot;f&quot;);var gf2 = new Gf(&quot;vivian2&quot;,&quot;f&quot;); 注意：这里我们使用一个大写字母开头的构造函数替代了上例中的createGf，注意按照约定构造函数的首字母要大写。在这里我们创建一个新对象，然后将构造函数的作用域赋给新对象，调用构造函数中的方法。上面的方式似乎没什么不妥，但是我们可以发现，两个实例中调用的构造函数中的sayWhat方法不是同一个Function实例：1console.log(gf1.sayWhat == gf2.sayWhat); //false 调用同一个方法，却声明了不同的实例，实在浪费资源。我们可以优化一下将sayWhat函数放到构造函数外面声明：12345678function Gf(name,bar)&#123; this.name = name; this.bar = bar; this.sayWhat = sayWhat&#125;function sayWhat()&#123; alert(this.name + &quot;said:love you forever&quot;);&#125; 这样解决了，多个实例多次定义同一个方法实例的问题，但是新问题又来了，我们定义的sayWhat是一个全局作用域的方法，但这个方法其实是没法直接调用的，这就有点矛盾了。如何更优雅的定义一个具备一定封装性的对象呢？我们来看一下javascript原型对象模式。]]></content>
+    </entry>
+
+    
+  
+  
+</search>

@@ -331,8 +331,9 @@ baidu_push: false
 # Motion
 use_motion: true
 
-# Fancybox
-fancybox: true
+# 图片放大
+# Fancybox  
+fancybox: false
 
 
 # Script Vendors.
