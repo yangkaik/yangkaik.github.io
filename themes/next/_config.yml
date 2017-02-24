@@ -3,8 +3,8 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: fx.ico
-
+favicon: fx.ico 
+bookmark: avatar.png
 # Set default keywords (Use a comma to separate)
 keywords: "blog,杨凯凯,web前端,H5"
 

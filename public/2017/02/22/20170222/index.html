@@ -1,0 +1,678 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="blog,杨凯凯,web前端,H5" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/fx.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="创建对象的几种方法
+
+
+基本对象的创建方法 
+
+最基础的对象创建方式123456var box = new Object();    //创建对象    box.name= &amp;apos;Lee&amp;apos;;       //添加属性    box.age=100;    box.run= function()&amp;#123;           return this.name+this.age+&amp;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="面向对象与原型">
+<meta property="og:url" content="http://yoursite.com/2017/02/22/20170222/index.html">
+<meta property="og:site_name" content="yangkaik">
+<meta property="og:description" content="创建对象的几种方法
+
+
+基本对象的创建方法 
+
+最基础的对象创建方式123456var box = new Object();    //创建对象    box.name= &amp;apos;Lee&amp;apos;;       //添加属性    box.age=100;    box.run= function()&amp;#123;           return this.name+this.age+&amp;">
+<meta property="og:updated_time" content="2017-02-22T06:28:07.124Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="面向对象与原型">
+<meta name="twitter:description" content="创建对象的几种方法
+
+
+基本对象的创建方法 
+
+最基础的对象创建方式123456var box = new Object();    //创建对象    box.name= &amp;apos;Lee&amp;apos;;       //添加属性    box.age=100;    box.run= function()&amp;#123;           return this.name+this.age+&amp;">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 6389489906107811000,
+      author: 'ykk'
+    }
+  };
+</script>
+
+  <title> 面向对象与原型 | yangkaik </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">yangkaik</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">心有猛虎，细嗅蔷薇</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                面向对象与原型
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-02-22T11:22:00+08:00" content="2017-02-22">
+              2017-02-22
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/02/22/20170222/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/22/20170222/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <ul>
+<li>创建对象的几种方法</li>
+</ul>
+<ol>
+<li>基本对象的创建方法 </li>
+</ol>
+<p>最基础的对象创建方式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">var box = new Object();    //创建对象</div><div class="line">    box.name= &apos;Lee&apos;;       //添加属性</div><div class="line">    box.age=100;</div><div class="line">    box.run= function()&#123;   </div><div class="line">        return this.name+this.age+&apos;运行中&apos;     //this表示当前作用域下对象     </div><div class="line">    &#125;</div></pre></td></tr></table></figure></p>
+<ol>
+<li>使用字面量创建</li>
+</ol>
+<p>作为一门脚本语言那应该有和其他兄弟们一样的范儿，于是出现了对象字面量的定义方式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">var box = &#123;</div><div class="line">    name : &quot;tangwei&quot;,</div><div class="line">    bar : &quot;js&quot;,</div><div class="line">    sayWhat : function() &#123;</div><div class="line">    console.log(this.name + &quot;said:love you forever&quot;);</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+ <a id="more"></a>
+<ol>
+<li>工厂模式</li>
+</ol>
+<p>字面量实际上是我们在实际中最常用的对象定义方式，但是我要有好多拥有相似属性的对象（想想都让人激动。。。）怎么办呢？那要是一个个的定义，就会产生大量的代码，何不建个工厂，批量的生产出我们的对象呢，于是，javascript世界中“工厂模式”诞生了！<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">function creationGf(name,bar)&#123;</div><div class="line">    var o = new Object();</div><div class="line">    o.name = name;</div><div class="line">    o.bar = bar;</div><div class="line">    0.sayWhat = function() &#123;</div><div class="line">    alert(this.name + &quot;said:love you forver&quot;);</div><div class="line">    &#125;</div><div class="line">    return o;               //返回对象引用</div><div class="line">&#125;</div><div class="line">var Gf1 = creationGf(&quot;binbing&quot;,&quot;d&quot;);</div><div class="line">var Gf2 = creationGf(&quot;bi&quot;,&quot;ddd&quot;);</div></pre></td></tr></table></figure></p>
+<p>工厂模式解决了集中实例化的问题，但还有一个问题，那就是识别问题，因为根本无法搞清楚他们到底是哪个对象的实例。</p>
+<p>如果我们再创建一个 creationGf2对象<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var Gf3 = creationGf(&quot;aaa&quot;,&quot;xxx&quot;);</div></pre></td></tr></table></figure></p>
+<p>这时候我们无法搞清Gf3是属于creationGf对象还是属于creationGf2<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">alert(typeof Gf1);     //Object</div><div class="line">alert(typeof Gf2);     //Object</div><div class="line">alert(typeof Gf3);     //Object</div><div class="line">alert(Gf1 instanceof Object);   //true</div></pre></td></tr></table></figure></p>
+<ol>
+<li>构建函数</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">function Gf(name,bar)&#123;</div><div class="line">    this.name = name;</div><div class="line">    this.bar = bar;</div><div class="line">    this.sayWhat = function()&#123;</div><div class="line">    alert(this.name + &quot;said:love you forever&quot;);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">var gf1 = new Gf(&quot;vivian&quot;,&quot;f&quot;);</div><div class="line">var gf2 = new Gf(&quot;vivian2&quot;,&quot;f&quot;);</div></pre></td></tr></table></figure>
+<p>注意：这里我们使用一个大写字母开头的构造函数替代了上例中的createGf，注意按照约定构造函数的首字母要大写。<br>在这里我们创建一个新对象，然后将构造函数的作用域赋给新对象，调用构造函数中的方法。<br>上面的方式似乎没什么不妥，但是我们可以发现，两个实例中调用的构造函数中的sayWhat方法不是同一个Function实例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">console.log(gf1.sayWhat == gf2.sayWhat); //false</div></pre></td></tr></table></figure></p>
+<p>调用同一个方法，却声明了不同的实例，实在浪费资源。我们可以优化一下将sayWhat函数放到构造函数外面声明：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">function Gf(name,bar)&#123;</div><div class="line">  this.name = name;</div><div class="line">  this.bar = bar;</div><div class="line">  this.sayWhat = sayWhat</div><div class="line">&#125;</div><div class="line">function sayWhat()&#123;</div><div class="line">  alert(this.name + &quot;said:love you forever&quot;);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>这样解决了，多个实例多次定义同一个方法实例的问题，但是新问题又来了，我们定义的sayWhat是一个全局作用域的方法，但这个方法其实是没法直接调用的，这就有点矛盾了。如何更优雅的定义一个具备一定封装性的对象呢？我们来看一下javascript原型对象模式。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+    <div>
+        
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">------本文结束<i class="fa fa-paw"></i>感谢阅读------</div>
+    
+</div>
+        
+    </div>
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/02/19/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/02/22/20170222/"
+           data-title="面向对象与原型" data-url="http://yoursite.com/2017/02/22/20170222/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="ykk" />
+          <p class="site-author-name" itemprop="name">ykk</p>
+          <p class="site-description motion-element" itemprop="description">记录日常工作遇到的技术问题</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/">
+              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/yangkaik" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://zonghongyan.github.io/" title="仁伯安" target="_blank">仁伯安</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2017.2.20 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ykk</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"ykk"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+<!-- 背景动画 -->
+
+<script>
+        if (screen && screen.width > 750) {
+              document.write(unescape('%3Cscript%20type%3D%22text/javascript%22%20src%3D%22/js/src/particle.js%22%3E%3C/script%3E'));
+        }
+</script>
+
+<!-- <script type="text/javascript" src="/js/src/particle.js"></script> -->
+<!-- 奔溃欺骗 -->
+<script type="text/javascript" src="/js/src/Collapse_cheating.js"></script>
+<!-- 页面点击小红心 -->
+<!-- <script type="text/javascript" src="/js/src/love.js"></script> -->
+</html>
