@@ -315,18 +315,18 @@
         
           
             <hr>
-<h2 id="git的日常使用（我自己看的）"><a href="#git的日常使用（我自己看的）" class="headerlink" title="git的日常使用（我自己看的）"></a>git的日常使用（我自己看的）</h2><hr>
+<h2 id="title-git的日常使用（记录我的git使用）"><a href="#title-git的日常使用（记录我的git使用）" class="headerlink" title="title:git的日常使用（记录我的git使用）"></a>title:git的日常使用（记录我的git使用）</h2><hr>
 <p><img src="http://note.youdao.com/yws/api/personal/file/E9B6A19C2C2647B59A46DC7DA507D3DD?method=download&amp;shareKey=90e8effc38981267e9a25f11864c7e8c" alt="image"></p>
 <h4 id="取得项目的-Git-仓库"><a href="#取得项目的-Git-仓库" class="headerlink" title="取得项目的 Git 仓库"></a>取得项目的 Git 仓库</h4><p>有两种取得 Git 项目仓库的方法。第一种是在现存的目录下，通过导入所有文件来创建新的 Git 仓库。第二种是从已有的 Git 仓库克隆出一个新的镜像仓库来。（这边先介绍第二种）</p>
 <h4 id="从现有仓库克隆"><a href="#从现有仓库克隆" class="headerlink" title="从现有仓库克隆"></a>从现有仓库克隆</h4><p>如果想对某个开源项目出一份力，可以先把该项目的 Git 仓库复制一份出来，这就需要用到 git clone 命令。如果你熟悉其他的 VCS 比如 Subversion，你可能已经注意到这里使用的是 clone 而不是 checkout。这是个非常重要的差别，Git 收取的是项目历史的所有数据（每一个文件的每一个版本），服务器上有的数据克隆之后本地也都有了。实际上，即便服务器的磁盘发生故障，用任何一个克隆出来的客户端都可以重建服务器上的仓库，回到当初克隆时的状态（虽然可能会丢失某些服务器端的挂钩设置，但所有版本的数据仍旧还在）。</p>
-<p>克隆仓库的命令格式为 git clone ==[url]==。比如，要我的博客项目，可以用下面的命令</p>
+<p>克隆仓库的命令格式为 git clone[url]。比如，要我的博客项目，可以用下面的命令</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone git@github.com:yangkaik/yangkaik.github.io.git</div></pre></td></tr></table></figure>
 <p>这会在当前目录下创建一个名为yangkaik.github.io的目录，<br>这里的地址如下图所示<br><img src="http://note.youdao.com/yws/api/personal/file/851C631DC3314079A5F922ECA897FEC1?method=download&amp;shareKey=0ae2554f08a71413f96cd59b27f1ff13" alt="image"></p>
 <p>其中包含一个 .git 的目录，用于保存下载下来的所有版本记录，然后从中取出最新版本的文件拷贝。如果进入这个新建的目录，你会看到项目中的所有文件已经在里边了，准备好后续的开发和使用。</p>
 <p><img src="http://note.youdao.com/yws/api/personal/file/6E983E83F92B403C8F229E10F6A31E8A?method=download&amp;shareKey=4f0a4116612f26f2dbbb18e753523096" alt="image"></p>
 <p>如果希望在克隆的时候，自己定义要新建的项目目录名称，可以在上面的命令末尾指定新的名字：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone git@github.com:yangkaik/yangkaik.github.io.git newname</div></pre></td></tr></table></figure>
-<p>唯一的差别就是，现在新建的目录成了 ==newname==，其他的都和上边的一样。</p>
+<p>唯一的差别就是，现在新建的目录成了 newname，其他的都和上边的一样。</p>
 
           
         
