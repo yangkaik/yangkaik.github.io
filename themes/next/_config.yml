@@ -27,7 +27,7 @@ since: 2017.2.20
 menu:
   home: /
   categories: /categories   #类别
-  about: /about             #关于  
+  #about: /about             #关于  
   archives: /archives       #归档
   tags: /tags               #标签
   commonweal: /404.html     #公益  
