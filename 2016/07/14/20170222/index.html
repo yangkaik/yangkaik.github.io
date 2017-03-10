@@ -116,7 +116,7 @@
 基本对象的创建方法 
 
 最基础的对象创建方式123456var box = new Object();    //创建对象    box.name= &amp;apos;Lee&amp;apos;;       //添加属性    box.age=100;    box.run= function()&amp;#123;           return this.name+this.age+&amp;">
-<meta property="og:updated_time" content="2017-02-24T06:17:05.390Z">
+<meta property="og:updated_time" content="2017-02-27T09:06:04.140Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="面向对象与原型">
 <meta name="twitter:description" content="创建对象的几种方法
@@ -177,7 +177,7 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">心有猛虎，细嗅蔷薇</p>
+  <p class="site-subtitle">雅蠛蝶</p>
 </div>
 
 <div class="site-nav-toggle">
@@ -396,7 +396,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">function Gf(name,bar)&#123;</div><div class="line">    this.name = name;</div><div class="line">    this.bar = bar;</div><div class="line">    this.sayWhat = function()&#123;</div><div class="line">    alert(this.name + &quot;said:love you forever&quot;);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">var gf1 = new Gf(&quot;vivian&quot;,&quot;f&quot;);</div><div class="line">var gf2 = new Gf(&quot;vivian2&quot;,&quot;f&quot;);</div></pre></td></tr></table></figure>
 <p>注意：这里我们使用一个大写字母开头的构造函数替代了上例中的createGf，注意按照约定构造函数的首字母要大写。<br>在这里我们创建一个新对象，然后将构造函数的作用域赋给新对象，调用构造函数中的方法。<br>上面的方式似乎没什么不妥，但是我们可以发现，两个实例中调用的构造函数中的sayWhat方法不是同一个Function实例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">console.log(gf1.sayWhat == gf2.sayWhat); //false</div></pre></td></tr></table></figure></p>
 <p>调用同一个方法，却声明了不同的实例，实在浪费资源。我们可以优化一下将sayWhat函数放到构造函数外面声明：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">function Gf(name,bar)&#123;</div><div class="line">  this.name = name;</div><div class="line">  this.bar = bar;</div><div class="line">  this.sayWhat = sayWhat</div><div class="line">&#125;</div><div class="line">function sayWhat()&#123;</div><div class="line">  alert(this.name + &quot;said:love you forever&quot;);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>这样解决了，多个实例多次定义同一个方法实例的问题，但是新问题又来了，我们定义的sayWhat是一个全局作用域的方法，但这个方法其实是没法直接调用的，这就有点矛盾了。如何更优雅的定义一个具备一定封装性的对象呢？我们来看一下javascript原型对象模式。</p>
+<p>这样解决了，多个实例多次定义同一个方法实例的问题，但是新问题又来了，我们定义的sayWhat是一个全局作用域的方法，但这个方法其实是没法直接调用的，这就有点矛盾了。如何更优雅的定义一个具备一定封装性的对象呢？我们来看一下javascript原型对象模式</p>
 
       
     </div>
