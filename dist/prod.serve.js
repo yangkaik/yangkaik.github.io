@@ -14,7 +14,7 @@ router.get('/', function (req, res, next) {
 
 app.use(router);
 
-var appData = require('data.json');
+var appData = require('./data.json');
 var seller = appData.seller;
 var goods = appData.goods;
 var ratings = appData.ratings;
